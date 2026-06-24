@@ -1,0 +1,47 @@
+.bg-container {
+    background-color: #f8c8dc;
+    background-size: cover;
+    height: 100vh;
+}
+.img-style {
+    height: 40vh;
+    width: 40vh;
+    padding: 5px;
+    border-radius: 25px;
+}
+.card-bg {
+    background-color: #ffffff;
+    height: 67vh;
+    width: 27vw;
+    border-radius: 15px;
+    position: fixed;
+}
+.heading-style {
+    font-size: 24px;
+    color: #d63384; 
+    margin-top: 10px;
+}
+.btn-style {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #ff4d6d;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+}
+.yes-btn {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+.no-btn {
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+}
+.moving-btn {
+    position: absolute;
+    transition: 0.2s;
+}
