@@ -7,12 +7,12 @@
     width: 100%;        /* ✅ responsive */
     height: auto; 
     padding: 5px;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 .card-bg {
     background-color: #ffffff;
-    width: 90%;
-    max-width: 350px;  
+    width: 95%;
+    max-width: 400px;  
     border-radius: 15px;
     position: fixed;
 }
@@ -20,6 +20,9 @@
     font-size: 22px;
     color: #d63384; 
     margin-top: 10px;
+}
+.para {
+    font-size: 14px;
 }
 .btn-style {
     display: inline-block;
@@ -31,17 +34,24 @@
     text-decoration: none;
     border: none;
 }
-@media (min-width: 768px) {
+@media (max-width: 576px) {
+
     .card-bg {
-        max-width: 400px;
+        width: 95%;
+        padding: 15px;
     }
 
     .heading-style {
-        font-size: 26px;
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 13px;
     }
 
     .btn-style {
-        font-size: 16px;
+        font-size: 13px;
+        padding: 6px 12px;
     }
 }
 .yes-btn {
