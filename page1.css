@@ -46,12 +46,12 @@
     }
 
     p {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .btn-style {
-        font-size: 13px;
-        padding: 6px 12px;
+        font-size: 14px;
+        padding: 8px 14px;
     }
 }
 .yes-btn {
